@@ -424,26 +424,26 @@ footer h3{
 footer .footer-social i{
     padding: 10px;
 }
-footer .footer-social i:nth-of-type(1) {
+footer .footer-social a:nth-of-type(1) i{
     background: #3b5998
 }
 
-footer .footer-social i:nth-of-type(2) {
+footer .footer-social a:nth-of-type(2) i{
     background: #55acee
 }
 
-footer .footer-social i:nth-of-type(3) {
+footer .footer-social a:nth-of-type(3) i{
     background: #dd4b39
 }
 
-footer .footer-social i:nth-of-type(4) {
+footer .footer-social a:nth-of-type(4) i{
     background: #ff0000
 }
 
-footer .footer-social i:nth-of-type(5) {
+footer .footer-social a:nth-of-type(5) i{
     background: #007bb5
 }
-footer .list-unstyled i{
+footer .list-unstyled a i{
     padding: 10px;
 }
 footer button {
@@ -461,6 +461,12 @@ footer img{
     padding: 1px;
 }
 
+footer a,footer a:hover{
+    color: #fff;
+}
+footer a:hover{
+    cursor: pointer;
+}
 
 
 /* copyright section---------------------------------------------------------------------- */
